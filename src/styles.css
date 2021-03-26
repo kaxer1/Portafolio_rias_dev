@@ -1,1 +1,161 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+}
+  
+  .icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+  .contenedor{
+    width: 90%;
+    margin: auto;
+  }
+    
+  .headernuevo{
+    width: 100%;
+    padding: 0;
+    /* background: #0d1322; */
+    position: fixed;
+    z-index: 100;
+  }
+    
+  .menu{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+    
+  .logo1{
+    display: block;
+    height: 100px;
+  }
+    
+  .logo1 img{
+    height: 100%;
+  }
+    
+  .logo1 img:hover{
+    cursor: pointer;
+  }
+    
+  .enlaces1 li{
+    text-decoration: none;
+    display: inline-block;
+  }
+    
+  .enlaces1 a{
+    padding: 0 20px;
+    font-weight: 600;
+    font-size: 15px;
+    list-style: none;
+    list-style: none;
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    
+  }
+    
+  .enlaces1 a:hover{
+    cursor: pointer;
+    color: #a30c37;
+    text-decoration: none;
+  }
+
+.centerEstatico{
+    background: #0d1322e7;
+    /* background: rgba(0, 20, 91, 0.822); */
+    transition: all 1.1s ease-in;
+    /* box-shadow: 2px 2px 10px #666; */
+}
+
+.seccioninicio{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(216, 216, 216);
+    background-image: linear-gradient(rgb(12, 8, 8), rgba(9, 13, 44, 0.329)), url("assets/img/fondoRIASDEV.jpg");
+    background-position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.seccionquienessomos{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(216, 216, 216);
+    background-image: linear-gradient(rgb(12, 8, 8), rgba(1, 7, 48, 0.425)), url("assets/img/fondoRIASDEV.jpg");
+    background-position: relative;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.seccionconocimientos{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(216, 216, 216);
+    background-image: linear-gradient(rgb(12, 8, 8), rgba(1, 7, 48, 0.425)), url("assets/img/fondoRIASDEV2.jpg");
+    background-position: relative;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.secciontrabajos{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(216, 216, 216);
+    background-image: linear-gradient(rgb(12, 8, 8), rgba(1, 7, 48, 0.425)), url("assets/img/fondoRIASDEV3.jpg");
+    background-position: relative;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.seccioncontactos{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(216, 216, 216);
+    background-image: linear-gradient(rgb(12, 8, 8), rgba(1, 7, 48, 0.425)), url("assets/img/fondoRIASDEV4.jpg");
+    background-position: relative;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
